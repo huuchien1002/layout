@@ -1,0 +1,13 @@
+img
+{
+    width: 100%;
+    height: 300px;
+    border: 5px solid black;
+}
+label
+{
+    border: 5px solid black;
+    padding: 0px 50px;    
+    margin: 50px ;
+}
+    

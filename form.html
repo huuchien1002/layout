@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <label>User Name:</label><br/>
+
+        <input name="id" type="text"/>
+        <br>
+        <br>
+        <label>Password:</label>
+        <br>
+        <input name="pw" type="password"/>
+        <br>
+        <br>
+        <label>
+    
+            <input name="re" type="checkbox">
+            Remember me?
+        </label>
+        <hr>
+        <button type="submit">Login</button>
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <center><input  type="image" src="Image/tải xuống.png"></center>
+        <br>
+        <br>
+        <label>Giới tính:</label>
+        <br>
+        <label><input name="sex" type="radio" checked>Nam</label>
+        <label><input name="sex" type="radio">Nữ</label>
+        <br>
+        <br>
+        <label>Nhóm máu</label><br>
+        <label><input name="blood" type="radio" checked>A</label>
+        <label><input name="blood" type="radio">B</label>
+        <label><input name="blood" type="radio">AB</label>
+        <label><input name="blood" type="radio">O</label>
+        <label><input name="blood" type="radio">Hiếm</label>
+        <div>
+            Tình trạng hôn nhân 
+            <label><input name="status" type="checkbox">Độc Thân?</label>
+        </div>
+        <div>
+            <label><input name="hobby" type="checkbox" value="1">Thể Thao</label>
+            <label><input name="hobby" type="checkbox" value="2">Âm Nhạc</label>
+            <label><input name="hobby" type="checkbox"value="3">Du lịch</label>
+            <label><input name="hobby" type="checkbox" value="4">Khác</label>
+        </div>
+        Tuổi
+        <select>
+            <option value="1">20</option>
+            <option value="2">25</option>
+            <option value="3">30</option>
+            <option value="4">35</option>
+            <option value="5">40</option>
+        </select>
+        <br>
+        <hr>
+        Số lượng
+        <br>
+        <select multiple size="4">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <fieldset>
+            <legend>Giới Tính</legend>
+            <label><input type="radio" checked>Nam</label>
+            <label><input type="radio">Nữ</label>
+        </fieldset>
+        <label>Ghi chú:</label>
+        <br>
+        <textarea  rows="5" cols="40"></textarea>
+        <br>
+        <input tabindex="1" placeholder="Email Address">
+        <input tabindex="2" value="100" readonly>
+        <input tabindex="3">
+        <button tabindex="4">OK</button>
+        <button disabled>Cancel</button>
+    </form>
+</body>
+</html>
